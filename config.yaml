@@ -1,0 +1,11 @@
+data:
+  train_path: "data/train.csv"
+  features_path: "data/features.csv"
+  stores_path: "data/stores.csv"
+  sample_output: "data/processed_sample.csv"
+
+model:
+  output_path: "models/walmart_model.pkl"
+  test_size: 0.2
+  random_state: 42
+  n_estimators: 100
